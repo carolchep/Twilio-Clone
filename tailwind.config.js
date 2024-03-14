@@ -7,12 +7,18 @@ export default {
     theme: {
 
         colors: {
-            primary: '#17494D',
+            primary: '#10393b',
             white: '#FFFFFF',
             secondary: "#FF8800",
-            grey :"rgb(156 163 175)",
-            green :"#00d084",
-            lightgreen:"rgb(156 163 175)."
+            grey: "rgb(156 163 175)",
+            green: "#68b06e",
+            lightgreen: "hsl(183, 50%, 98%)",
+            textg:"#03363d"
+        },
+        fontFamily: {
+            'raleway': ['Raleway', 'sans-serif'],
+        }, textUnderlineOffset: {
+            8: '13px',
         }
     },
     plugins: [],
