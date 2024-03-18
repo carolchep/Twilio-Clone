@@ -4,6 +4,9 @@ import './App.css'
 import Structure from './components/Structure'
 import ThirdPart from './components/ThirdPart'
 import FourthPart from './components/FourthPart'
+import FifthPart from './components/FifthPart'
+import Blog from './components/Blog'
+import Connect  from './components/Connect'
 
 function App() {
 
@@ -13,6 +16,9 @@ function App() {
       <Structure />
       <ThirdPart />
       <FourthPart />
+      <FifthPart/>
+      <Blog/>
+      <Connect/>
       </div>
   )
 }

@@ -13,7 +13,8 @@ export default {
             grey: "rgb(156 163 175)",
             green: "#68b06e",
             lightgreen: "hsl(183, 50%, 98%)",
-            textg:"#03363d"
+            textg:"#03363d",
+            gray:"#f3f4f6"
         },
         fontFamily: {
             'raleway': ['Raleway', 'sans-serif'],

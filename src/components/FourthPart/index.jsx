@@ -1,10 +1,11 @@
 import me from '../../assets/me.jpeg'
 import left from '../../assets/left.webp'
+import slide1 from '../../assets/slide1.webp'
 
 const FourthPart = () => {
     return (
         <>
-            <div className="sm:max-w-6xl mx-auto grid grid-cols-2 gap-3  pt-40 ">
+            <div className="sm:max-w-6xl mx-auto grid grid-cols-2 gap-3 pt-40 ">
                 <img src={left} />
 
                 <div className='sm:pl-10 ml-auto'>
@@ -34,15 +35,15 @@ const FourthPart = () => {
                 </div>
 
             </div>
-            <div className='bg-primary mt-20'>
+            <div className='bg-primary pb-20 mt-20'>
                 <div className='max-w-6xl mx-auto grid grid-cols-3 text-white gap 2 pt-20'>
                     <div >
 
-                        <p className='text-2xl font-bold mt-5 p-7'>Features</p>
+                        <p className='text-2xl font-bold  p-7'>Features</p>
                         <div className='flex row space-x-2 p-7 pl-0'>
                             <img src={'https://n.foxdsgn.com/twilo/wp-content/uploads/2022/04/Group-29.png'} className="object-contain" />
                             <div>
-                                <p className='text-2xl font-bold pt-6'>Intergrations</p>
+                                <p className='text-2xl font-bold'>Intergrations</p>
                                 <p className='pt-2'>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut.</p>
                             </div>
                         </div>
@@ -63,9 +64,27 @@ const FourthPart = () => {
                         </div>
 
                     </div>
-                    <div>    <p className='text-2xl font-bold mt-5 p-7'  >Capabilities</p>
+                    <div>    
+                        <p className='text-2xl font-bold  p-7'  >Capabilities</p>
+                        <div className='text-lg font-bold p-5'>
+                        <p className='p-2'>Custom Functions</p>
+                        <p className='p-2'>Time Tracking</p>
+                        <p  className='p-2'>Layouts</p>
+                        <p  className='p-2'>Notifications</p>
+                        <p  className='p-2'>Responsive</p>
+                        <p  className='p-2'>Reports</p>
+                        <p  className='p-2'>Templates</p>
+
+                        </div>
+
+
+
+
                     </div>
-                    <div>   <p className='text-5xl font-bold  mt-5 p-7'>Get All the Metrics</p>
+                    <div> 
+                          <p className='text-4xl font-bold  pl-0 pt-2  mt-5 p-7'>Get All the Metrics</p>
+                          <p className='font-bold mt-2'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium nam libero tempore.</p>
+                          <img  src={slide1}/>
                     </div>
 
                 </div>
