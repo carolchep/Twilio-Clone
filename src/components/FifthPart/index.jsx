@@ -19,7 +19,7 @@ const FifthPart = () => {
                             <li className="p-2">Mobile Apps</li>
                             <li className="p-2">Email Support</li>
                         </ul>
-                        <div className="p-3 w-3/4 bg-secondary text-white pl-12 font-bold rounded-md">Get Started</div>
+                        <div className="p-3 w-3/4 bg-secondary text-white pl-12  mt-2 font-bold rounded-md">Get Started</div>
                         </div>
                     </div>
                     <div className="shadow-2xl">  <div className="shadow-2xl pb-10">
@@ -34,7 +34,7 @@ const FifthPart = () => {
                             <li className="p-2">Mobile Apps</li>
                             <li className="p-2">Email Support</li>
                         </ul>
-                        <div className="p-3 w-3/4 bg-secondary text-white pl-12 font-bold rounded-md">Get Started</div>
+                        <div className="p-3 w-3/4 bg-secondary text-white pl-12 font-bold mt-2 rounded-md">Get Started</div>
                         </div>
                     </div></div>
                     <div className=" shadow-2xl">  <div className="shadow-2xl pb-10">
@@ -49,7 +49,7 @@ const FifthPart = () => {
                             <li className="p-2">Mobile Apps</li>
                             <li className="p-2">Email Support</li>
                         </ul>
-                        <div className="p-3 w-3/4 bg-secondary text-white pl-12 font-bold rounded-md">Get Started</div>
+                        <div className="p-3 w-3/4 bg-secondary text-white pl-12  mt-2 font-bold rounded-md">Get Started</div>
                         </div>
                     </div></div>
                 </div>

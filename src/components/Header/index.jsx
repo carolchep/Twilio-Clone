@@ -42,8 +42,9 @@ const Header = () => {
                             <p className='sm:text-grey text-lg'>just like yourself create and sustain a successful online support.</p>
 
                             <div className='sm:flex mt-7'>
-                                <button className='sm:p-5 bg-secondary'>Get Started</button>
-                                <p className='sm:p-5 text-grey ml-10'>Watch Video</p>
+                            <button className="bg-secondary p-3 mt-5 text-white font-medium tracking-widest  ">Get Started</button>
+                            <button className="bg-primary p-3 mt-5  font-medium tracking-widest text-grey ml-10 ">Watch Video</button>
+
                             </div>
                         </div>
                         <div className='sm:w-full'>

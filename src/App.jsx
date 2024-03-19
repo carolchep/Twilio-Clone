@@ -7,6 +7,7 @@ import FourthPart from './components/FourthPart'
 import FifthPart from './components/FifthPart'
 import Blog from './components/Blog'
 import Connect  from './components/Connect'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <FifthPart/>
       <Blog/>
       <Connect/>
+      <Footer/>
       </div>
   )
 }

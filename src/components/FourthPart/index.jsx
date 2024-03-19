@@ -84,7 +84,7 @@ const FourthPart = () => {
                     <div> 
                           <p className='text-4xl font-bold  pl-0 pt-2  mt-5 p-7'>Get All the Metrics</p>
                           <p className='font-bold mt-2'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium nam libero tempore.</p>
-                          <img  src={slide1}/>
+                          <img src={slide1} className="mt-2"/>
                     </div>
 
                 </div>
