@@ -5,10 +5,10 @@ import slide1 from '../../assets/slide1.webp'
 const FourthPart = () => {
     return (
         <>
-            <div className="sm:max-w-6xl mx-auto grid grid-cols-2 gap-3 pt-40 ">
+            <div className="max-w-6xl mx-auto sm:grid grid-cols-2 md:grid grid-cols-2 gap-3 pt-40 ">
                 <img src={left} />
 
-                <div className='sm:pl-10 ml-auto'>
+                <div className='pl-10 ml-auto'>
                     <p className=' text-lg text-green font-bold tracking-widest	'> DATA ANALIZE</p>
                     <p className='font-bold text-5xl mt-2'>Increase your</p>
                     <p className='font-bold text-5xl mt-2 text-secondary'>performance</p>
@@ -36,7 +36,7 @@ const FourthPart = () => {
 
             </div>
             <div className='bg-primary pb-20 mt-20'>
-                <div className='max-w-6xl mx-auto grid grid-cols-3 text-white gap 2 pt-20'>
+                <div className='max-w-6xl mx-auto xl:grid grid-cols-3 text-white gap 2 pt-20'>
                     <div >
 
                         <p className='text-2xl font-bold  p-7'>Features</p>

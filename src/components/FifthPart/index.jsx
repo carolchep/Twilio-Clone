@@ -6,7 +6,7 @@ const FifthPart = () => {
                 <div className=" w-3/4 mx-auto ">  <p className="text-5xl text-primary pb-7 font-bold">Choose the option that
                     <span className='text-secondary'> suit every team</span></p>
                 </div>
-                <div className="grid gap-8 grid-cols-3 mt-4 bg-white text-primary ">
+                <div className="sm:grid gap-8 grid-cols-3 mt-4 bg-white text-primary ">
                     <div className="shadow-2xl pb-10">
                         <div className="w-3/4 mx-auto pt-4 mt-2">
                         <p className="text-green text-2xl  p-4 font-bold">Starter</p>
